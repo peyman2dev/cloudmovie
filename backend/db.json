@@ -1,4 +1,115 @@
 {
-  "movies": [],
+  "movies": [
+    {
+      "id": "tt0111161",
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c75dfa97d0c9166551f52b1/9351f4e2-94f9-42e2-81df-003d5fe7b8e0/9964546b0ba1f6e14a6045e34b341f8ca2a3569752c5afed95b89682fcde1a68._RI_V_TTW_.jpg",
+      "release_date": "1994-10-14",
+      "country": "USA",
+      "stars": ["Tim Robbins", "Morgan Freeman"],
+      "ratings": 9.3,
+      "ratings_count": 2456789
+    },
+    {
+      "id": "tt0068646",
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "release_date": "1972-03-24",
+      "country": "USA",
+      "stars": ["Marlon Brando", "Al Pacino"],
+      "ratings": 9.2,
+      "ratings_count": 1765432
+    },
+    {
+      "id": "tt0468569",
+      "title": "The Dark Knight",
+      "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+      "release_date": "2008-07-18",
+      "country": "USA",
+      "stars": ["Christian Bale", "Heath Ledger"],
+      "ratings": 9.0,
+      "ratings_count": 2345678
+    },
+    {
+      "id": "tt1375666",
+      "title": "Inception",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+      "release_date": "2010-07-16",
+      "country": "USA",
+      "stars": ["Leonardo DiCaprio", "Joseph Gordon-Levitt"],
+      "ratings": 8.8,
+      "ratings_count": 2123456
+    },
+    {
+      "id": "tt0133093",
+      "title": "The Matrix",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "image": "https://example.com/the_matrix.jpg",
+      "release_date": "1999-03-31",
+      "country": "USA",
+      "stars": ["Keanu Reeves", "Laurence Fishburne"],
+      "ratings": 8.7,
+      "ratings_count": 1987654
+    },
+    {
+      "id": "tt0109830",
+      "title": "Forrest Gump",
+      "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal, and other historical events unfold through the perspective of an Alabama man with an IQ of 75.",
+      "image": "https://example.com/forrest_gump.jpg",
+      "release_date": "1994-07-06",
+      "country": "USA",
+      "stars": ["Tom Hanks", "Robin Wright"],
+      "ratings": 8.8,
+      "ratings_count": 1765432
+    },
+    {
+      "id": "tt1375666",
+      "title": "The Silence of the Lambs",
+      "description": "A young FBI cadet must confide in an incarcerated and manipulative cannibal killer to receive his help in catching another serial killer.",
+      "image": "https://example.com/silence_of_the_lambs.jpg",
+      "release_date": "1991-02-14",
+      "country": "USA",
+      "stars": ["Jodie Foster", "Anthony Hopkins"],
+      "ratings": 8.6,
+      "ratings_count": 1654321
+    },
+    {
+      "id": "tt0099685",
+      "title": "Goodfellas",
+      "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito.",
+      "image": "https://example.com/goodfellas.jpg",
+      "release_date": "1990-09-19",
+      "country": "USA",
+      "stars": ["Robert De Niro", "Ray Liotta"],
+      "ratings": 8.7,
+      "ratings_count": 1543210
+    },
+    {
+      "id": "tt1375666",
+      "title": "Pulp Fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "image": "https://example.com/pulp_fiction.jpg",
+      "release_date": "1994-10-14",
+      "country": "USA",
+      "stars": ["John Travolta", "Samuel L. Jackson"],
+      "ratings": 8.9,
+      "ratings_count": 1432109
+    },
+    {
+      "id": "tt0816692",
+      "title": "Interstellar",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "image": "https://example.com/interstellar.jpg",
+      "release_date": "2014-11-07",
+      "country": "USA",
+      "stars": ["Matthew McConaughey", "Anne Hathaway"],
+      "ratings": 8.6,
+      "ratings_count": 1345678
+    }
+  ],
   "users": []
 }
