@@ -1,5 +1,5 @@
 body {
-  background: #f1f1f1;
+  background: #f8fafa;
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -18,6 +18,9 @@ body {
   background: white;
   border-radius: 12px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.045);
+}
+.movies {
+  width: 100%;
 }
 
 .movie-card main {
@@ -43,6 +46,10 @@ body {
   background: #ffda79;
   padding: 5px 16px 0px;
   border-radius: 12px;
+}
+
+.movies * {
+  margin: 12px 0;
 }
 
 .total-rate {
@@ -124,25 +131,23 @@ body {
 .pagination-buttons {
   width: max-content;
   margin: 0 auto;
-  border-radius: 6px;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 42px!important;
-  background: white;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
   margin-bottom: 84px;
+  gap: 3px;
 }
 
 .pagination-button {
-  width: 42px;
-  color: #1f1f1f;
   display: flex;
+  border-radius: 6px;
   align-items: center;
   justify-content: center;
+  background: #f0f6fe;
   font-size: 14px;
+  color: rgb(99, 99, 99);
   cursor: pointer;
+  padding: 6px 12px 3px;
   transition: all ease 200ms;
   user-select: none;
 }
@@ -155,9 +160,22 @@ body {
 .active-page {
   background: rgb(0, 157, 255);
   color: white;
+  box-shadow: 0 0 16px rgba(0, 128, 255, 0.301);
 }
 
 .pagination-button.active-page:hover {
-  background: #0077ff!important;
+  background: #0077ff !important;
+}
 
+header.header {
+  background: white;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.094);
+}
+
+nav.windows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 12px;
 }
