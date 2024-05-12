@@ -8,6 +8,7 @@
     <!-- linking the styles/css -->
     <link rel="stylesheet" href="/public/css/input.css" />
     <link rel="stylesheet" href="/public/css/app.css" />
+    <link rel="stylesheet" href="/public/css/responsive.css" />
     <link rel="stylesheet" href="/public/css/fonts.css" />
     <link
       rel="stylesheet"
@@ -17,24 +18,41 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <nav class="windows container" >
+      <nav class="windows container">
         <div>
           <a href="/index.html">
-            <img src="./public/images/CloudLogo.png" alt="">
+            <img src="./public/images/CloudLogo.png" alt="" />
           </a>
         </div>
-        <div class="navbar-items">
-    
-          
+
+        <!-- Items coming from javascript -->
+        <div class="navbar-items"></div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+          <!-- Theme -->
+          <div class="theme-card">
+            <button class="theme-button"></button>
+          </div>
+          <!-- Search -->
+
+          <!-- Login/Register -->
+          <div class="flex items-center gap-2 registration-card">
+            <a class="login-link" href="./src/pages/login/index.html"> ورود </a>
+            <a class="register-link" href="./src/pages/register/index.html"
+              >ثبت نام</a
+            >
+          </div>
         </div>
-        <div>3</div>
       </nav>
       <nav class="mobile"></nav>
     </header>
 
     <!-- Main -->
     <main class="justify-between container">
+      
       <section class="movies-container">
+        <!-- Movies Coming from Javascript -->
         <div class="movies"></div>
         <ul class="pagination-buttons"></ul>
       </section>

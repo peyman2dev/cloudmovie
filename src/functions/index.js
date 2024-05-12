@@ -2,6 +2,8 @@ import { getMenus, getMovies } from "../modules/api/api.js";
 import pagination from "../modules/pagination/pagination.js";
 import { NavbarElement, VideoElement } from "../modules/insertToHtml/Elements.js";
 import insertToHtml from "../modules/insertToHtml/insertToHtml.js";
+import themeHandler from "../modules/themeHandler/themeHandler.js";
+
 const $ = document
 
 const moviesContainer = $.querySelector(".movies")
@@ -24,3 +26,4 @@ pagination({
 })
 
 
+themeHandler()
