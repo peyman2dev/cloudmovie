@@ -1,3 +1,5 @@
+import insertToHtml from "../insertToHtml/insertToHtml.js"
+
 let currentPage = 1
 let items
 let totalPages
@@ -31,18 +33,16 @@ const buttons = () => {
     btns.push(`<li onclick="pageUpdate(${i})" class="pagination-button ${currentPage === i ? "active-page" : "not-active"}">${i}</li>`)
   }
   buttonsContainer.innerHTML = ""
-  btns.forEach(button => {
-    buttonsContainer.insertAdjacentHTML('beforeend', button)
-  })
+
+  insertToHtml(btns, buttonsContainer)
 }
 
 window.pageUpdate = pageUpdate
 
 const renderingElements = () => {
   appContainer.innerHTML = ""
-  paginatedItems.map(item => {
-    appContainer.insertAdjacentHTML("afterbegin", (initElement(item)))
-  })
+  insertToHtml(paginatedItems, appContainer, initElement)
+
 }
 
 

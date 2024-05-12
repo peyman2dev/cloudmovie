@@ -12,13 +12,7 @@ body {
   flex-wrap: wrap;
 }
 
-.movie-card {
-  padding: 24px;
-  width: 100%;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.045);
-}
+/* Movies */
 .movies {
   width: 100%;
 }
@@ -29,11 +23,19 @@ body {
   gap: 12px;
 }
 
+.movie-card {
+  padding: 24px;
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.045);
+}
+
 .movie-card main .content {
   width: 70%;
 }
 .movie-card main .cover {
-  width: 30%;
+  width: 35%;
 }
 
 .imdb-rating {
