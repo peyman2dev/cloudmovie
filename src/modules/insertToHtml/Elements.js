@@ -1,5 +1,5 @@
 export const VideoElement = (item) => {
-    return (`
+  return (`
     <!-- Movie Card -->
     <article class="movie-card">
       <header>
@@ -106,3 +106,12 @@ export const VideoElement = (item) => {
     </article>`)
 }
 
+export const NavbarElement = item => {
+  return (
+    `
+    <a href="${item.url}" class="navbar-item">
+    ${item.title}
+  </a>
+  `
+  )
+}

@@ -651,5 +651,35 @@
       "duration": "135 دقیقه"
     }
   ],
-  "users": []
+  "users": [],
+  "menus": [
+    {
+      "title": "دانلود فیلم",
+      "url": "/category/movies"
+    },
+    {
+      "title": "دانلود فیلم ۲۵۰ فیلم برتر IMDb",
+      "url": "/category/imdb-top-movies"
+    },
+    {
+      "title": "دانلود سریال",
+      "url": "/category/series"
+    },
+    {
+      "title": "دانلود سریال ۲۵۰ سریال برتر IMDb",
+      "url": "/category/imdb-top-series"
+    },
+    {
+      "title": "دانلود انیمه",
+      "url": "/category/anime"
+    },
+    {
+      "title": "باکس آفیس",
+      "url": "/box-office"
+    },
+    {
+      "title": "DMCA",
+      "url": "/dmca"
+    }
+  ]
 }

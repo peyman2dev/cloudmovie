@@ -179,3 +179,22 @@ nav.windows {
   padding: 12px;
   margin-bottom: 12px;
 }
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: start;
+  width: 90%;
+}
+
+.navbar-item {
+  color: #6d6d6d;
+  font-family: "Dana-Medium";
+  transition: all ease 200ms;
+  font-size: 14px;
+}
+
+.navbar-item:hover {
+  color: #1f1f1f;
+}

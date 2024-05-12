@@ -22,6 +22,12 @@ const server = http.createServer((req, res) => {
     ]
     ));
     res.end();
+  } else if (req.method === "GET" && req.url === "/v1/menus") {
+    res.writeHead(200, { "Content-Type": "application/json" })
+    res.write(JSON.stringify([
+      ...db.menus
+    ]))
+    res.end()
   } else {
     res.writeHead(404, { "Content-Type": "text/plain" });
     res.write("Not Found");
